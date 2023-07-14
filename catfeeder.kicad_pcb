@@ -6,8 +6,10 @@
 
   (paper "USLetter" portrait)
   (title_block
-    (title "Cat Flap Controller")
-    (date "2017-08-30")
+    (title "RFID Pet Feeder")
+    (date "2023-07-14")
+    (rev "1.1")
+    (company "Ian Freislich")
   )
 
   (layers
@@ -2819,10 +2821,10 @@
     (at 85.2467 121.2342 180)
     (descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "inductor")
-    (property "Reference" "L2" (at 0.0275 -1.89 270) (layer "F.SilkS") (tstamp fa814487-9760-4a45-b79c-5af58cc10c2b)
+    (property "Reference" "L2" (at 0.0275 -1.89 -90) (layer "F.SilkS") (tstamp fa814487-9760-4a45-b79c-5af58cc10c2b)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (property "Value" "3.3uH" (at 0.4775 -2.66 270) (layer "F.Fab") (tstamp c2369d10-37bd-46a5-afc5-82066922a79b)
+    (property "Value" "3.3uH" (at 0.4775 -2.66 -90) (layer "F.Fab") (tstamp c2369d10-37bd-46a5-afc5-82066922a79b)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (property "Footprint" "" (at 0 0 0 unlocked) (layer "B.Fab") hide (tstamp bb1f5be8-278e-420e-9f04-7c2c9d9963e6)
