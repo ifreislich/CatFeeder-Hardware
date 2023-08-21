@@ -484,8 +484,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "catfeeder.dsn",
       "step": "catfeeder.step",
+      "svg": "",
       "vmrl": "",
       "vrml": ""
     },
@@ -564,6 +567,7 @@
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },

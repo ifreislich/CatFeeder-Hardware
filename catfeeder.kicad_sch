@@ -1,4 +1,4 @@
-(kicad_sch (version 20230620) (generator eeschema)
+(kicad_sch (version 20230808) (generator eeschema)
 
   (uuid fd3c3c61-61b5-4523-bb35-82c168f458b2)
 
@@ -12,7 +12,7 @@
   )
 
   (lib_symbols
-    (symbol "74xx:74LS125" (in_bom yes) (on_board yes)
+    (symbol "74xx:74LS125" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -150,7 +150,7 @@
         )
       )
     )
-    (symbol "A4988:A4988SETTR-T" (in_bom yes) (on_board yes)
+    (symbol "A4988:A4988SETTR-T" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -4.9276 38.3794 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
@@ -332,7 +332,7 @@
         )
       )
     )
-    (symbol "Connector:Barrel_Jack_Switch" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Connector:Barrel_Jack_Switch" (pin_names hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.334 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -425,7 +425,7 @@
         )
       )
     )
-    (symbol "Connector:USB_B_Mini" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (symbol "Connector:USB_B_Mini" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -5.08 11.43 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -573,7 +573,7 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x02" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Connector_Generic:Conn_01x02" (pin_names hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -618,7 +618,7 @@
         )
       )
     )
-    (symbol "Connector_Generic:Conn_01x04" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Connector_Generic:Conn_01x04" (pin_names hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -679,7 +679,7 @@
         )
       )
     )
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.254 1.778 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -730,7 +730,7 @@
         )
       )
     )
-    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:D_Schottky" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -795,7 +795,7 @@
         )
       )
     )
-    (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:L" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -846,7 +846,7 @@
         )
       )
     )
-    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -929,7 +929,7 @@
         )
       )
     )
-    (symbol "Device:L_Ferrite" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:L_Ferrite" (pin_numbers hide) (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -1076,7 +1076,7 @@
         )
       )
     )
-    (symbol "Device:Q_PNP_BEC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:Q_PNP_BEC" (pin_names (offset 0) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1153,7 +1153,7 @@
         )
       )
     )
-    (symbol "Device:R_Potentiometer_Small" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:R_Potentiometer_Small" (pin_names (offset 1.016) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "RV" (at -4.445 0 90)
         (effects (font (size 1.27 1.27)))
       )
@@ -1208,7 +1208,7 @@
         )
       )
     )
-    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 0.762 0.508 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1247,7 +1247,7 @@
         )
       )
     )
-    (symbol "ESPbees-rescue:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "ESPbees-rescue:+3.3V" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1296,7 +1296,7 @@
         )
       )
     )
-    (symbol "ESPbees-rescue:24LC512" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "ESPbees-rescue:24LC512" (pin_names (offset 0.762)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -6.35 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1356,7 +1356,7 @@
         )
       )
     )
-    (symbol "ESPbees-rescue:Battery-RESCUE-ESPpowerstar" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "ESPbees-rescue:Battery-RESCUE-ESPpowerstar" (pin_numbers hide) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "BT" (at 2.54 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1417,7 +1417,7 @@
         )
       )
     )
-    (symbol "ESPbees-rescue:DS3231" (pin_names (offset 0.762)) (in_bom yes) (on_board yes)
+    (symbol "ESPbees-rescue:DS3231" (pin_names (offset 0.762)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -2.54 12.065 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
@@ -1509,7 +1509,7 @@
         )
       )
     )
-    (symbol "ESPbees-rescue:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "ESPbees-rescue:GND" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -1546,7 +1546,7 @@
         )
       )
     )
-    (symbol "Interface_USB:CP2102N-A01-GQFN28" (in_bom yes) (on_board yes)
+    (symbol "Interface_USB:CP2102N-A01-GQFN28" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -7.62 31.75 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
@@ -1693,7 +1693,7 @@
         )
       )
     )
-    (symbol "RF_Module:ESP32-WROOM-32" (in_bom yes) (on_board yes)
+    (symbol "RF_Module:ESP32-WROOM-32" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -12.7 34.29 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1880,7 +1880,7 @@
         )
       )
     )
-    (symbol "Transistor_BJT:UMH3N" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "Transistor_BJT:UMH3N" (pin_names hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 7.62 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
@@ -1985,7 +1985,7 @@
         )
       )
     )
-    (symbol "hx711:HX711" (pin_numbers hide) (in_bom yes) (on_board yes)
+    (symbol "hx711:HX711" (pin_numbers hide) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -12.7 21.082 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
@@ -2106,7 +2106,7 @@
         )
       )
     )
-    (symbol "mp2307:MP2307DN-LF-Z" (in_bom yes) (on_board yes)
+    (symbol "mp2307:MP2307DN-LF-Z" (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -10.16 13.335 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
@@ -2202,7 +2202,7 @@
         )
       )
     )
-    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -2254,7 +2254,7 @@
         )
       )
     )
-    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3V3" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -2306,7 +2306,7 @@
         )
       )
     )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (exclude_from_sim no) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
@@ -4151,7 +4151,7 @@
   )
 
   (symbol (lib_id "Device:L_Ferrite") (at 121.92 242.824 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059a5baec)
     (property "Reference" "L1" (at 121.92 237.617 90)
       (effects (font (size 1.27 1.27)))
@@ -4180,7 +4180,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 125.73 251.968 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000059a71240)
     (property "Reference" "C6" (at 128.0668 250.7996 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4209,7 +4209,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 272.034 195.326 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ad7850c)
     (property "Reference" "J3" (at 270.002 194.2592 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4240,7 +4240,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 277.114 203.962 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005ada1cc6)
     (property "Reference" "#PWR09" (at 277.114 210.312 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4268,7 +4268,7 @@
   )
 
   (symbol (lib_id "Connector:USB_B_Mini") (at 214.884 58.166 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d9dbee5)
     (property "Reference" "J2" (at 216.3316 46.3038 0)
       (effects (font (size 1.27 1.27)))
@@ -4301,7 +4301,7 @@
   )
 
   (symbol (lib_id "mp2307:MP2307DN-LF-Z") (at 89.154 250.444 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e26701c)
     (property "Reference" "U2" (at 89.154 233.5276 0)
       (effects (font (size 1.27 1.27)))
@@ -4343,7 +4343,7 @@
   )
 
   (symbol (lib_id "Connector:Barrel_Jack_Switch") (at 39.624 242.824 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e269096)
     (property "Reference" "J1" (at 41.0718 234.7976 0)
       (effects (font (size 1.27 1.27)))
@@ -4373,7 +4373,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 71.374 259.334 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2cf4b2)
     (property "Reference" "C4" (at 73.7108 258.1656 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4402,7 +4402,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 68.072 242.824 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2d3aae)
     (property "Reference" "R2" (at 66.802 239.014 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4431,7 +4431,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 63.754 251.714 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2d5740)
     (property "Reference" "C3" (at 66.0908 250.5456 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4460,7 +4460,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 105.664 263.144 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2d9b10)
     (property "Reference" "#PWR04" (at 105.664 269.494 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4488,7 +4488,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 117.0432 245.364 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2e0207)
     (property "Reference" "R4" (at 115.7732 250.444 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4517,7 +4517,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 110.236 252.984 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2e3d5d)
     (property "Reference" "R3" (at 112.268 251.714 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4546,7 +4546,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 63.754 259.334 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2e608c)
     (property "Reference" "R1" (at 68.834 260.604 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4575,7 +4575,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 71.374 264.414 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2f01f7)
     (property "Reference" "#PWR03" (at 71.374 270.764 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4603,7 +4603,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 134.874 251.714 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2f0ee8)
     (property "Reference" "C7" (at 137.2108 250.5456 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4632,7 +4632,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 106.934 240.284 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e2f8348)
     (property "Reference" "C5" (at 105.7656 237.9472 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4661,7 +4661,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 117.0432 252.984 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e64f82d)
     (property "Reference" "R5" (at 115.7732 258.064 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4690,7 +4690,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 54.356 251.714 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005e66d893)
     (property "Reference" "C2" (at 56.6928 250.5456 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4719,7 +4719,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 154.686 251.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 000235c3-301a-492e-8c29-944c51fdbb58)
     (property "Reference" "C25" (at 157.0228 250.2916 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4748,7 +4748,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 232.664 45.72 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 00a1a83f-2322-48a0-b3a4-0797ee4be381)
     (property "Reference" "C16" (at 235.0008 44.5516 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4777,7 +4777,7 @@
   )
 
   (symbol (lib_id "74xx:74LS125") (at 205.232 254.508 0) (unit 5)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 02c99f5f-2728-4cd8-88dd-a44caf5a8f73)
     (property "Reference" "U3" (at 207.5688 244.5004 0)
       (effects (font (size 1.27 1.27)))
@@ -4818,7 +4818,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 62.23 204.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ac880b5-dffe-42ad-9ee9-0ef10c165eb8)
     (property "Reference" "#PWR0143" (at 62.23 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4846,7 +4846,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 309.88 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ca8aa84-0208-4bf6-9872-c0cacc7466ad)
     (property "Reference" "R22" (at 304.8 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4875,7 +4875,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 232.664 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e7c8f41-5a2c-4d97-bb2a-db8cac206d0a)
     (property "Reference" "#PWR0132" (at 232.664 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4903,7 +4903,7 @@
   )
 
   (symbol (lib_id "ESPbees-rescue:DS3231") (at 360.68 202.692 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f35716c-c530-4d57-98bb-a302716fcb81)
     (property "Reference" "U8" (at 358.14 190.627 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -4946,7 +4946,7 @@
   )
 
   (symbol (lib_id "A4988:A4988SETTR-T") (at 202.565 178.435 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 107fc422-574e-469a-b671-5f8f4cceb5c7)
     (property "Reference" "U6" (at 203.073 137.287 0)
       (effects (font (size 1.27 1.27)))
@@ -5014,7 +5014,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 290.83 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 12acd5ff-f7d9-4ee9-b740-d5cfde52bc29)
     (property "Reference" "C19" (at 293.1668 130.9116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5043,7 +5043,7 @@
   )
 
   (symbol (lib_id "RF_Module:ESP32-WROOM-32") (at 92.71 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 148abcbd-cf50-404e-bdf0-c785d7d5d364)
     (property "Reference" "U1" (at 79.248 34.036 0)
       (effects (font (size 1.27 1.27)))
@@ -5109,7 +5109,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 320.04 31.496 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 15ed7330-f9d1-48cf-ae2a-24dc0effae55)
     (property "Reference" "R26" (at 314.96 30.226 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5138,7 +5138,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 88.265 182.245 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 173379fa-0f4d-47cc-915d-4518142cb07f)
     (property "Reference" "#PWR0127" (at 92.075 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5166,7 +5166,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 325.12 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c350363-820e-4eb7-a52a-9759e5af21fc)
     (property "Reference" "C22" (at 327.4568 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5195,7 +5195,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 179.07 153.035 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 21c6f9e6-8ec5-4314-8b3f-12936a55a237)
     (property "Reference" "#PWR0130" (at 182.88 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5223,7 +5223,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 168.91 158.75 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 23bdf1e8-f1fb-4cfa-9149-3183646b3962)
     (property "Reference" "C14" (at 166.5732 157.5816 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5252,7 +5252,7 @@
   )
 
   (symbol (lib_id "ESPbees-rescue:Battery-RESCUE-ESPpowerstar") (at 378.46 211.582 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 29d05571-1066-4913-8be8-ebbf8d11b49d)
     (property "Reference" "BT1" (at 381 210.312 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5281,7 +5281,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 288.544 209.296 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a3950bb-8233-4e42-810b-d3557bd6abcf)
     (property "Reference" "R10" (at 289.814 208.026 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5310,7 +5310,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 330.708 40.132 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c9afed6-66fb-47d8-91a4-b5b77f250a2b)
     (property "Reference" "D3" (at 334.01 39.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -5339,7 +5339,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 288.544 189.992 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 30c0a53f-b625-4a46-9b42-a412769305d9)
     (property "Reference" "R12" (at 289.56 188.976 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5368,7 +5368,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 71.755 146.05 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 38de301b-afa7-4d11-b3c3-b0b91ffa0a6c)
     (property "Reference" "#PWR0121" (at 71.755 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5396,7 +5396,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 298.45 153.67 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 396a39e5-5265-44ef-a1d4-dbd708a48e64)
     (property "Reference" "R20" (at 296.418 155.448 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5425,7 +5425,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 74.295 158.115 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3de58ec6-d613-4a23-a291-52ed18d8728e)
     (property "Reference" "C1" (at 71.9582 156.9466 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5454,7 +5454,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 38.1 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f7dbcd2-a155-46bb-82fe-9bd86e9d21d8)
     (property "Reference" "#PWR0115" (at 38.1 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5482,7 +5482,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 33.02 161.29 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 41d983f5-b9da-4d86-bc6a-21ea51826f16)
     (property "Reference" "J8" (at 29.21 161.544 0)
       (effects (font (size 1.27 1.27)))
@@ -5511,7 +5511,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 205.232 267.208 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 45bce7d4-6565-4e8b-bb23-b9917adce389)
     (property "Reference" "#PWR0103" (at 205.232 273.558 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5539,7 +5539,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 256.286 106.426 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 46da4917-eeb2-4030-80ec-5277b9fb2cf4)
     (property "Reference" "#PWR0106" (at 256.286 112.776 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5567,7 +5567,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 151.13 205.232 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 48e77ca9-2586-4185-a35d-5b0e38c56d69)
     (property "Reference" "#PWR0142" (at 151.13 209.042 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5595,7 +5595,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 65.405 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 49167dcb-8cdf-4e1b-9476-f3922ef0ce0c)
     (property "Reference" "R14" (at 66.929 186.182 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5624,7 +5624,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 316.23 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 49b5ddf9-dbc0-432d-9d93-6977b7db35bd)
     (property "Reference" "C21" (at 318.5668 139.8016 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5653,7 +5653,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 154.686 245.618 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b868ed6-f2ff-4361-a5c0-1bbfc8acfa65)
     (property "Reference" "#PWR0137" (at 154.686 249.428 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5681,7 +5681,7 @@
   )
 
   (symbol (lib_id "74xx:74LS125") (at 225.806 255.524 0) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4de09a88-747f-4a43-abfb-a5e7994adeea)
     (property "Reference" "U3" (at 225.9076 246.0244 0)
       (effects (font (size 1.27 1.27)))
@@ -5722,7 +5722,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 62.23 220.218 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ee4c56f-b24f-4e0b-b8df-fefe99141726)
     (property "Reference" "#PWR0144" (at 62.23 226.568 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5750,7 +5750,7 @@
   )
 
   (symbol (lib_id "ESPbees-rescue:+3.3V") (at 360.68 189.992 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5080317c-db66-4464-b080-47c16639f271)
     (property "Reference" "#PWR0139" (at 360.68 193.802 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5778,7 +5778,7 @@
   )
 
   (symbol (lib_id "ESPbees-rescue:GND") (at 184.15 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5357156d-75c2-4220-aab8-903a5d31e2e8)
     (property "Reference" "#PWR13" (at 184.15 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5811,7 +5811,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 161.29 37.846 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5980c0c9-5f01-45ef-91ef-ae2d4fe6ccfa)
     (property "Reference" "C8" (at 163.6268 36.6776 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5840,7 +5840,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 180.975 183.515 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c56b0c2-203e-4f7a-99f4-675be0485464)
     (property "Reference" "#PWR0117" (at 184.785 183.515 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5868,7 +5868,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 146.05 194.945 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f20dd05-5d24-482c-a76e-41939da231ad)
     (property "Reference" "#PWR0118" (at 146.05 201.295 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5896,7 +5896,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 243.586 34.29 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 684c3b49-9c31-43d4-84e4-b1b9be830711)
     (property "Reference" "R23" (at 238.506 33.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5925,7 +5925,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 169.545 165.735 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 69bf99f0-bc38-4325-bbed-20bcee10eff4)
     (property "Reference" "#PWR0129" (at 173.355 165.735 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5953,7 +5953,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 151.13 220.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 710b9c13-7afd-4c1f-a181-9c78915c1f0c)
     (property "Reference" "#PWR0141" (at 151.13 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5981,7 +5981,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 205.232 241.808 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 76ac93c4-40f1-49c6-a9b1-9498fbbfc330)
     (property "Reference" "#PWR0102" (at 205.232 245.618 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6009,7 +6009,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 212.344 71.374 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 771ee9ab-beb4-40b8-9976-b27cf89e783d)
     (property "Reference" "#PWR0107" (at 212.344 77.724 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6037,7 +6037,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 288.544 201.422 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a4f605c-3cb9-44e5-899e-cb7723cd3581)
     (property "Reference" "R11" (at 283.718 202.438 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6066,7 +6066,7 @@
   )
 
   (symbol (lib_id "Interface_USB:CP2102N-A01-GQFN28") (at 256.286 73.406 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bba9c6d-6f40-428e-b778-6f0f1cf11701)
     (property "Reference" "U4" (at 278.638 63.246 0)
       (effects (font (size 1.27 1.27)))
@@ -6122,7 +6122,7 @@
   )
 
   (symbol (lib_id "ESPbees-rescue:+3.3V") (at 184.15 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d50c81f-6d5d-4d5e-a15c-6e6a8381d7a9)
     (property "Reference" "#PWR12" (at 184.15 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6155,7 +6155,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 92.71 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8591b434-a919-479b-8c70-dcb212025612)
     (property "Reference" "#PWR0105" (at 92.71 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6183,7 +6183,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 161.925 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 878afc80-eea5-4bb7-bfea-6ea91404a6ee)
     (property "Reference" "R18" (at 163.449 187.452 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6212,7 +6212,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 86.36 212.725 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a3d20dd-412f-4353-999a-8fb3d5c20d27)
     (property "Reference" "#PWR0114" (at 80.01 212.725 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6240,7 +6240,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 166.37 144.145 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c550980-9708-421a-b94b-a71c9418846a)
     (property "Reference" "C11" (at 168.7068 142.9766 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6269,7 +6269,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 31.75 107.188 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8cf56488-9d60-46cb-ab51-ebba0c208e2d)
     (property "Reference" "J6" (at 29.718 108.2548 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6300,7 +6300,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 37.592 148.844 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 8efef208-dc8a-4536-b5d2-cd9b4b134e37)
     (property "Reference" "#PWR0146" (at 37.592 155.194 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6328,7 +6328,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 278.13 127 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 90c00f08-ede0-4d9c-9d0c-c67e7ef337f8)
     (property "Reference" "J5" (at 276.098 125.9332 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6359,7 +6359,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 37.592 141.224 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9185c9e7-530f-4da2-9a41-100d85d993b1)
     (property "Reference" "#PWR0113" (at 37.592 145.034 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6387,7 +6387,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 71.755 138.43 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 920c9cce-95a5-4ba6-9d23-cf3c6c221d1d)
     (property "Reference" "#PWR0116" (at 71.755 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6415,7 +6415,7 @@
   )
 
   (symbol (lib_id "A4988:A4988SETTR-T") (at 107.95 177.165 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9295b61a-8939-42c8-8acc-7a3dea540d73)
     (property "Reference" "U5" (at 108.458 136.017 0)
       (effects (font (size 1.27 1.27)))
@@ -6483,7 +6483,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 276.352 38.354 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 94b37a7c-2edb-4cb5-a575-79d34b061a15)
     (property "Reference" "#PWR0131" (at 276.352 44.704 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6511,7 +6511,7 @@
   )
 
   (symbol (lib_id "Transistor_BJT:UMH3N") (at 138.938 49.022 180) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 94ef353a-4079-4ed5-92d5-957c72e3c6ad)
     (property "Reference" "Q1" (at 141.478 52.832 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6544,7 +6544,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 180.721 213.995 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 95b4dd99-e27d-42b5-bab1-1e781b02ef65)
     (property "Reference" "#PWR0119" (at 174.371 213.995 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6572,7 +6572,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 175.26 165.735 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 96a082b0-8d23-4d55-aa58-4c30efb52b5d)
     (property "Reference" "C15" (at 175.9204 164.7698 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6601,7 +6601,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 284.988 186.182 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a88b6ee-0028-4173-8489-43ad660b20cd)
     (property "Reference" "R9" (at 286.258 182.626 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6630,7 +6630,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 73.025 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid 9bd6ce27-d6b4-490b-9dbe-149a2c1fbebf)
     (property "Reference" "R17" (at 74.549 186.182 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6659,7 +6659,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 264.414 33.528 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a20a2aba-0d59-4be2-a965-9d0553063452)
     (property "Reference" "C17" (at 266.7508 32.3596 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6688,7 +6688,7 @@
   )
 
   (symbol (lib_id "Device:L") (at 304.8 124.46 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a33d06dc-baec-4cc9-9403-b701259363aa)
     (property "Reference" "L2" (at 305.054 120.396 90)
       (effects (font (size 1.27 1.27)))
@@ -6717,7 +6717,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 32.004 126.746 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a6133184-22b4-4ab9-bcad-e9b1909b0db7)
     (property "Reference" "J7" (at 29.972 127.8128 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6748,7 +6748,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 342.9 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a6a74cb2-a9d6-4634-af18-60a97d9e0090)
     (property "Reference" "C23" (at 345.2368 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6777,7 +6777,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 355.6 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a6cf81cd-a6a2-4c25-b09c-9ff10c365ec7)
     (property "Reference" "#PWR01" (at 355.6 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6805,7 +6805,7 @@
   )
 
   (symbol (lib_id "74xx:74LS125") (at 250.952 255.27 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a6fca5f4-1cb0-4fb0-8da7-229d7c83bd96)
     (property "Reference" "U3" (at 251.46 245.7196 0)
       (effects (font (size 1.27 1.27)))
@@ -6846,7 +6846,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 71.755 143.51 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a75a7907-bdec-41ef-ac0f-cccf1a6fd5fe)
     (property "Reference" "C9" (at 74.0918 142.3416 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6875,7 +6875,7 @@
   )
 
   (symbol (lib_id "Device:Q_PNP_BEC") (at 312.42 118.11 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a823cad2-8345-4173-99f6-bbc614a59b1f)
     (property "Reference" "Q3" (at 306.578 115.824 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6905,7 +6905,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 256.286 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a84ea102-1a29-460b-a969-713419defd27)
     (property "Reference" "#PWR0108" (at 256.286 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6933,7 +6933,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 80.645 164.465 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a88f4187-1ed0-44ed-b139-90f14d820617)
     (property "Reference" "C13" (at 81.3054 163.4998 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6962,7 +6962,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 309.88 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a99a7073-8425-41e5-a9bf-1e7699e73fff)
     (property "Reference" "R21" (at 310.896 128.524 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6991,7 +6991,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 353.06 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid a9ac158d-4d50-4957-a8fe-3d16424011e3)
     (property "Reference" "#PWR0135" (at 353.06 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7019,7 +7019,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 38.1 168.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ab7beef6-cb15-4189-9faa-8b684d06b7b5)
     (property "Reference" "#PWR0145" (at 38.1 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7047,7 +7047,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 299.72 132.08 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid abc1f397-8f51-42f6-afb4-43b725d62f44)
     (property "Reference" "C20" (at 302.0568 130.9116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7076,12 +7076,12 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 306.07 151.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ac355b40-6556-4b99-ad11-71e58b98bd3c)
     (property "Reference" "C27" (at 308.4068 149.9616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (at 308.4068 152.273 0)
+    (property "Value" "10uF" (at 308.4068 152.273 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 306.07 151.13 0)
@@ -7105,7 +7105,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 295.402 195.072 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid aeeb673b-4a3b-47de-a8f8-82a6e448befd)
     (property "Reference" "#PWR0125" (at 295.402 201.422 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7133,7 +7133,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 38.1 166.37 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b027b3fc-8989-482b-8672-02efb4eb922d)
     (property "Reference" "R7" (at 33.02 165.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7162,7 +7162,7 @@
   )
 
   (symbol (lib_id "74xx:74LS125") (at 301.752 186.182 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b0b3542d-c498-476b-8973-07b883d90db6)
     (property "Reference" "U3" (at 302.9204 177.1396 0)
       (effects (font (size 1.27 1.27)))
@@ -7203,7 +7203,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 276.352 33.528 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b353a246-b27c-49f4-99c6-4a6daa4d7912)
     (property "Reference" "C18" (at 278.6888 32.3596 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7232,7 +7232,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 62.23 209.042 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b79e0c2a-d71a-4d71-9ae1-6153d5eeda03)
     (property "Reference" "R24" (at 63.754 207.264 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7261,7 +7261,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 359.41 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid b85fe299-5db8-4965-b17e-cd9c577b2503)
     (property "Reference" "#PWR0133" (at 359.41 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7289,7 +7289,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 325.374 25.908 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid be1eca41-98d7-4fa7-979f-44ebccbbb2bb)
     (property "Reference" "#PWR05" (at 325.374 29.718 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7317,7 +7317,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 154.686 257.302 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid be87d3c4-109b-4031-84d5-7839d4c6e893)
     (property "Reference" "#PWR0138" (at 154.686 263.652 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7345,7 +7345,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 47.625 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid bf265734-12a7-45f9-960a-152c5541cf9e)
     (property "Reference" "C12" (at 49.9618 186.7916 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7374,7 +7374,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 146.05 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c0119d7e-c5b2-414f-873b-b50fc79b3128)
     (property "Reference" "R15" (at 147.574 187.452 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7403,7 +7403,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 309.88 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c0ddeecc-6855-4c72-a194-001b27870e70)
     (property "Reference" "#PWR0136" (at 309.88 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7431,7 +7431,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 92.71 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c2385e93-339e-4754-965b-1b550156b6ce)
     (property "Reference" "#PWR0104" (at 92.71 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7459,7 +7459,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 161.29 27.178 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c4b74595-3d86-4ad2-8148-467d69998cdf)
     (property "Reference" "#PWR0109" (at 161.29 30.988 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7487,7 +7487,7 @@
   )
 
   (symbol (lib_id "ESPbees-rescue:24LC512") (at 184.15 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid c7fde21d-0f58-4236-9728-7187703b3cbb)
     (property "Reference" "U1" (at 177.8 96.52 0)
       (effects (font (size 1.27 1.27)))
@@ -7527,7 +7527,7 @@
   )
 
   (symbol (lib_id "Device:LED") (at 320.04 39.878 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cc8ada67-8bcb-4b5d-808d-00e6ea4df66b)
     (property "Reference" "D2" (at 323.85 39.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -7556,7 +7556,7 @@
   )
 
   (symbol (lib_id "Transistor_BJT:UMH3N") (at 142.494 41.656 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ccca3388-d3c3-499b-9088-5e9fd85f03db)
     (property "Reference" "Q1" (at 150.876 40.386 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7589,7 +7589,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 298.45 148.59 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cd7359a1-368d-4b5f-84ad-fd7cf3d936d5)
     (property "Reference" "R19" (at 296.926 145.034 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7618,7 +7618,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 330.708 31.75 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid cdc97a00-1911-4e39-b034-8405b82badae)
     (property "Reference" "R27" (at 325.628 30.48 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7647,7 +7647,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer_Small") (at 62.23 215.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d0140fae-5163-4e38-ab34-6020d4015852)
     (property "Reference" "RV1" (at 60.706 215.138 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -7677,7 +7677,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 161.29 41.91 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid d71aa7e8-7671-4662-9c50-6a424c6cc98c)
     (property "Reference" "#PWR0110" (at 161.29 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7705,7 +7705,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 166.37 146.685 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid dd42d92f-563e-436d-8432-1feed7710854)
     (property "Reference" "#PWR0124" (at 166.37 153.035 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7733,7 +7733,7 @@
   )
 
   (symbol (lib_id "ESPbees-rescue:GND") (at 360.68 217.932 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid dd730b0e-6df1-405a-b12b-795b0e7a0975)
     (property "Reference" "#PWR0140" (at 360.68 224.282 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7761,7 +7761,7 @@
   )
 
   (symbol (lib_id "hx711:HX711") (at 337.82 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid dec9fd40-04cc-45b9-9506-4295ed31c7be)
     (property "Reference" "U7" (at 336.55 126.238 0)
       (effects (font (size 1.27 1.27)))
@@ -7807,7 +7807,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 37.592 146.304 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e073daf5-4666-471f-8f78-7e48bf44d14a)
     (property "Reference" "R6" (at 32.512 145.034 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7836,7 +7836,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 353.06 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e2ffade3-d918-4042-930a-de63a25d665d)
     (property "Reference" "C24" (at 355.3968 105.5116 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7865,7 +7865,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 138.6332 245.364 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e4983f31-1a8b-4e59-8323-9fa0ecdabb9b)
     (property "Reference" "#PWR0101" (at 138.6332 249.174 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7893,7 +7893,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 161.29 31.496 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e5bc49d4-23dc-47ad-a227-d5870588c477)
     (property "Reference" "R8" (at 156.21 30.226 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -7922,7 +7922,7 @@
   )
 
   (symbol (lib_id "74xx:74LS125") (at 302.006 205.232 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e60ec55e-8b0b-454b-8f69-81a270984ffc)
     (property "Reference" "U3" (at 302.8696 196.4436 0)
       (effects (font (size 1.27 1.27)))
@@ -7963,7 +7963,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 336.55 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e67e61f2-5211-4f9d-bc9e-01942d890853)
     (property "Reference" "#PWR0134" (at 336.55 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -7991,7 +7991,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 57.15 187.96 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e8d5e963-1a3b-4fbe-ab89-27441e6fdd7a)
     (property "Reference" "R13" (at 58.674 186.182 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8020,7 +8020,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 277.114 192.786 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid e9db9b57-1798-4219-bceb-28687b7c8072)
     (property "Reference" "#PWR0112" (at 277.114 196.596 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8048,7 +8048,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 295.148 214.122 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ea102906-f44e-4375-84af-ae62b9d74841)
     (property "Reference" "#PWR0126" (at 295.148 220.472 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8076,7 +8076,7 @@
   )
 
   (symbol (lib_id "Device:D_Schottky") (at 105.664 252.476 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ecb5a26c-29d6-460f-82fd-b9794cf02e82)
     (property "Reference" "D1" (at 101.092 251.968 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8105,7 +8105,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 170.18 251.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid ed226693-9b71-4ffb-a01a-19c2f51d6996)
     (property "Reference" "C26" (at 172.5168 250.2916 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8134,7 +8134,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 136.525 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid eea99a6f-3bf4-47fd-ad6d-a3fdefda347b)
     (property "Reference" "C10" (at 138.8618 188.0616 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8163,7 +8163,7 @@
   )
 
   (symbol (lib_id "power:+3V3") (at 166.37 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f0181ebb-233e-4549-92fe-1f5c9e408302)
     (property "Reference" "#PWR0122" (at 166.37 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8191,7 +8191,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 51.054 238.506 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f0be7610-a6c5-4670-b8b3-ceb3b2d7a4de)
     (property "Reference" "#PWR0111" (at 51.054 242.316 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8219,7 +8219,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 84.455 151.765 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f45c4a67-fbaf-407e-8e88-dcaf398a2d47)
     (property "Reference" "#PWR0123" (at 88.265 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8247,7 +8247,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 154.305 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f4ba2eaf-a1a4-4d4b-b2bf-e846994de17d)
     (property "Reference" "R16" (at 155.829 187.452 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8276,7 +8276,7 @@
   )
 
   (symbol (lib_id "power:GND") (at 57.15 193.675 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f6188742-ed26-47c9-929a-5ef68d3dcf72)
     (property "Reference" "#PWR0120" (at 57.15 200.025 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8304,7 +8304,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 151.13 209.804 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f6755666-efb3-4c89-90f7-7e48cabffe2f)
     (property "Reference" "R25" (at 152.654 208.026 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -8333,7 +8333,7 @@
   )
 
   (symbol (lib_id "Device:R_Potentiometer_Small") (at 151.13 216.662 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid f9849cf6-0f88-4bb1-a4df-a2a24a4bf4a4)
     (property "Reference" "RV2" (at 149.606 215.9 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -8363,7 +8363,7 @@
   )
 
   (symbol (lib_id "power:+12V") (at 74.803 164.465 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fafb2a50-19fa-4f00-9f01-62a88ffb096c)
     (property "Reference" "#PWR0128" (at 78.613 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8391,7 +8391,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 32.512 141.224 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
     (uuid fdca2be1-7934-4093-8156-2e3fe85653d2)
     (property "Reference" "J4" (at 28.702 141.478 0)
       (effects (font (size 1.27 1.27)))
