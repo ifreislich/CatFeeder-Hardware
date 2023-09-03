@@ -19,10 +19,10 @@ Pin|Signal|Wire
 J5 Scale - Connection to the Load Cell
 Pin|Wire
 ---|----
-1|White
-2|Green
-3|Red
-4|Black
+1|Black
+2|Red
+3|Green
+4|White
 
 J6 Auger - Nema17 20mm stepper motor
 Pin|Signal|Wire
